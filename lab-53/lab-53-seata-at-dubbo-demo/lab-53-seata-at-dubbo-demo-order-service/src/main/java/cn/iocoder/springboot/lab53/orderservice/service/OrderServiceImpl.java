@@ -4,7 +4,7 @@ import cn.iocoder.springboot.lab53.accountservice.api.AccountService;
 import cn.iocoder.springboot.lab53.orderservice.api.OrderService;
 import cn.iocoder.springboot.lab53.orderservice.dao.OrderDao;
 import cn.iocoder.springboot.lab53.orderservice.entity.OrderDO;
-import cn.iocoder.springboot.lab53.storageservice.api.ProductService;
+import cn.iocoder.springboot.lab53.productservice.api.ProductService;
 import io.seata.core.context.RootContext;
 import io.seata.spring.annotation.GlobalTransactional;
 import org.apache.dubbo.config.annotation.Reference;
@@ -22,7 +22,6 @@ public class OrderServiceImpl implements OrderService {
 
     @Reference
     private AccountService accountService;
-
     @Reference
     private ProductService productService;
 
