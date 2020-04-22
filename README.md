@@ -1,4 +1,4 @@
-一个涵盖五个主流技术栈的**正经**仓库：
+一个涵盖六个主流技术栈的**正经**仓库：
 * [《Spring Boot 专栏》](https://github.com/YunaiV/SpringBoot-Labs#spring-boot-%E4%B8%93%E6%A0%8F)
 * [《Spring Cloud Alibaba 专栏》](https://github.com/YunaiV/SpringBoot-Labs#spring-cloud-alibaba-%E4%B8%93%E6%A0%8F)
 * [《Spring Cloud 专栏》](https://github.com/YunaiV/SpringBoot-Labs#spring-cloud-%E4%B8%93%E6%A0%8F)
@@ -35,7 +35,7 @@
 
 * [《芋道 Spring Boot 热部署入门》](http://www.iocoder.cn/Spring-Boot/hot-swap/?github) 对应 [lab-48](https://github.com/YunaiV/SpringBoot-Labs/tree/master/lab-48)
 * [《芋道 Spring Boot 消除冗余代码 Lombok 入门》](http://www.iocoder.cn/Spring-Boot/Lombok/?github) 对应 [lab-49](https://github.com/YunaiV/SpringBoot-Labs/tree/master/lab-49)
-* 《芋道 Spring Boot 对象转换 MapStruct 入门》计划中...
+* [《芋道 Spring Boot 对象转换 MapStruct 入门》](http://www.iocoder.cn/Spring-Boot/MapStruct/?github) 对应 [lab-55](https://github.com/YunaiV/SpringBoot-Labs/tree/master/lab-55)
 
 ## Web 开发
 
@@ -267,7 +267,7 @@
 
 ## RocketMQ
 
-* [《RocketMQ 安装部署》](http://www.iocoder.cn/RocketMQ/install/?github)
+* [《RocketMQ 极简入门》](http://www.iocoder.cn/RocketMQ/install/?github)
 * [《芋道 Spring Boot 消息队列 RocketMQ 入门》](http://www.iocoder.cn/Spring-Boot/RocketMQ/?github) 对应 [lab-31](https://github.com/YunaiV/SpringBoot-Labs/tree/master/lab-31)
 * [《芋道 Spring Cloud Alibaba 消息队列 RocketMQ 入门》](http://www.iocoder.cn/Spring-Cloud-Alibaba/RocketMQ/?github) 对应 [labx-06](https://github.com/YunaiV/SpringBoot-Labs/tree/master/labx-06)
 * [《芋道 Spring Cloud Alibaba 事件总线 Bus RocketMQ 入门》](http://www.iocoder.cn/Spring-Cloud-Alibaba/Bus-RocketMQ/?github) 对应 [labx-20](https://github.com/YunaiV/SpringBoot-Labs/tree/master/labx-20)
@@ -277,7 +277,7 @@
 
 ## RabbitMQ
 
-* [《RabbitMQ 安装部署》](http://www.iocoder.cn/RabbitMQ/install/?github)
+* [《RabbitMQ 极简入门》](http://www.iocoder.cn/RabbitMQ/install/?github)
 * [《芋道 Spring Boot 消息队列 RabbitMQ 入门》](http://www.iocoder.cn/Spring-Boot/RabbitMQ/?github) 对应 [lab-04](https://github.com/YunaiV/SpringBoot-Labs/tree/master/lab-04)
 * [《芋道 Spring Cloud 消息队列 RabbitMQ 入门》](http://www.iocoder.cn/Spring-Cloud/RabbitMQ/?github) 对应 [labx-10](https://github.com/YunaiV/SpringBoot-Labs/tree/master/labx-10)
 * [《芋道 Spring Cloud 事件总线 Bus RabbitMQ 入门》](http://www.iocoder.cn/Spring-Cloud/Bus-RabbitMQ/?github) 对应 [labx-19](https://github.com/YunaiV/SpringBoot-Labs/tree/master/labx-19)
@@ -285,7 +285,7 @@
 
 ## Kafka
 
-* [《Kafka 安装部署》](http://www.iocoder.cn/Kafka/install/?github)
+* [《Kafka 极简入门》](http://www.iocoder.cn/Kafka/install/?github)
 * [《芋道 Spring Boot 消息队列 Kafka 入门》](http://www.iocoder.cn/Spring-Boot/Kafka/?github) 对应 [lab-03](https://github.com/YunaiV/SpringBoot-Labs/tree/master/lab-03)
 * [《芋道 Spring Cloud 消息队列 Kafka 入门》](http://www.iocoder.cn/Spring-Cloud/Kafka/?github) 对应 [labx-11](https://github.com/YunaiV/SpringBoot-Labs/tree/master/labx-11)
 * [《芋道 Spring Cloud 事件总线 Bus Kafka 入门》](http://www.iocoder.cn/Spring-Cloud/Bus-Kafka/?github) 对应 [labx-18](https://github.com/YunaiV/SpringBoot-Labs/tree/master/labx-18)
@@ -293,7 +293,7 @@
 
 ## ActiveMQ
 
-* [《ActiveMQ 安装部署》](http://www.iocoder.cn/ActiveMQ/install/?github)
+* [《ActiveMQ 极简入门》](http://www.iocoder.cn/ActiveMQ/install/?github)
 * [《芋道 Spring Boot 消息队列 ActiveMQ 入门》](http://www.iocoder.cn/Spring-Boot/ActiveMQ/?github) 对应 [lab-32](https://github.com/YunaiV/SpringBoot-Labs/tree/master/lab-32)
 * [《芋道 Spring Cloud 消息队列 ActiveMQ 入门》](http://www.iocoder.cn/Spring-Cloud/ActiveMQ/?github)
 
