@@ -11,6 +11,7 @@
 
     <artifactId>lab-48</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>lab-48-demo</module>
     </modules>
