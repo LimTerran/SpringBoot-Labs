@@ -2,7 +2,10 @@ package cn.iocoder.springboot.lab67.nettyserverdemo.server;
 
 import cn.iocoder.springboot.lab67.nettyserverdemo.server.handler.NettyServerHandlerInitializer;
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.*;
+import io.netty.channel.Channel;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelOption;
+import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import org.slf4j.Logger;
@@ -46,6 +49,7 @@ public class NettyServer {
     public void start() throws InterruptedException {
         // 创建 ServerBootstrap 对象，用于 Netty Server 启动
         ServerBootstrap bootstrap = new ServerBootstrap();
+        // 设置 ServerBootstrap 的各种属性
         bootstrap.group(bossGroup, workerGroup) // 设置两个 EventLoopGroup 对象
                 .channel(NioServerSocketChannel.class)  // 指定 Channel 为服务端 NioServerSocketChannel
                 .localAddress(new InetSocketAddress(port)) // 设置 Netty Server 的端口
